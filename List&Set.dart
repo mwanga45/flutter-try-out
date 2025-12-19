@@ -7,4 +7,9 @@ void main() {
   print(score);
   score.shuffle();
   print(score);
+
+  Set<String> Names = {'issa', 'mwanga', 'shabs', 'elly'};
+  Names.add('shabs'); 
+  Names.add('mwangax');
+  print(Names);
 }
